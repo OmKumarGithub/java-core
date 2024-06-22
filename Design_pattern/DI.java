@@ -13,6 +13,13 @@ package Design_pattern;
 // the problem is when you will change helper1 to helper 2 there is no guarantee that the function which was in helper 1 would be present in Helper2 
 
 
+// Independence injection Application will become into two parts one which will have your main implementation and second part will have the dependency implementation
+// Two parts what does part means ?Part means two different jvm or  two different server
+// Without dependency injection we have to recompile Rebuild and then redeploy this is so much taxing
+// But when we use dependency injection we just need to change the dependency server which means our main server just need redeploying
+// These two servers will be connecting or contacting themselves with the technology of rmi jndi serilisation and deserialization Remote and home files  
+
+
 
 
 
